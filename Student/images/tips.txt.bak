@@ -1,0 +1,9 @@
+
+exercise1_panorama 中同样有需要我们完成的部分，跟据line33的注释来看，我们需要计算一次reference view
+和它自己彼此之间的H矩阵，如果我想得没错这就是个单位阵。
+
+在compute_homography中计算H矩阵的时候，我们首先需要根据points1和points2构造Q矩阵，构造方法如lec_notes中的
+公式51所示。
+
+
+
